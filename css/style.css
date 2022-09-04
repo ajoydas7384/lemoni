@@ -14,6 +14,16 @@ p {
     color: white !important;
 }
 
+.one-fourth {
+    width: 22%;
+    margin-right: 4%;
+    padding: 0;
+}
+
+.last {
+    margin-right: 0;
+}
+
 ul {
     padding: 0;
 }
@@ -895,7 +905,7 @@ li:hover > ul {
 }
 
 .date span {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     display: block;
     text-align: center;
@@ -928,7 +938,8 @@ li:hover > ul {
 }
 
 .post-info {
-    font-size: 13px;;
+    font-size: 13px;
+    margin-bottom: 10px;
 }
 
 
@@ -1119,6 +1130,11 @@ li:hover > ul {
 
 
 
+.owl-seven .blog-post-inner p {
+    padding-right: 40px;
+}
+
+
 .news-area {
     margin: 80px 0px;
 }
@@ -1138,7 +1154,7 @@ li:hover > ul {
 }
 
 .news-img-holder {
-    width: 93%;
+    width: 90%;
     position: relative;
     margin-bottom: 10px;
 }
@@ -1151,7 +1167,7 @@ li:hover > ul {
     top: 60px;
     padding: 10px;
     background: #fdce16;
-    left: 320px;
+    left: 310px;
     z-index: 5;
 }
 
@@ -1164,7 +1180,7 @@ li:hover > ul {
 .news-img-holder .blog-post {
     background: #fdce16;
     padding: 20px;
-    height: 206px;
+    height: 199px;
     position: absolute;
     width: 100%;
     z-index: -1;
@@ -1222,7 +1238,7 @@ li:hover > ul {
 
 .news-area .owl-two .owl-nav {
     float: right;
-    margin-top: -480px;
+    margin-top: -500px;
 }
 
 .news-area .owl-two .owl-nav button.owl-prev {
@@ -1255,5 +1271,169 @@ li:hover > ul {
 }
 
 .news-area .blog-post-inner h2 a {
-    color: gray;
+    color: black;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.news-area .nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    background: #000;
+    width: 126px;
+    color: white;
+    border: none;
+    border-right: 1px solid #666666;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    height: 55px;
+}
+
+.nav-tabs .nav-link:hover {
+    border-right: 1px solid #666666;
+}
+
+.news-area .down-shap {
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-top: 10px solid black;
+    position: absolute;
+    line-height: 0;
+    margin: 16px 0px 0px 35px;
+    width: 10px;
+    height: 10px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #fdce16;
+    color: black;
+    transition: .5s;
+    height: 55px;
+}
+
+.nav-tabs .nav-link.active .down-shap {
+    border-top: 10px solid #fdce16;
+    transition: .5s;
+
+}
+
+.news-area .tab-content {
+    padding: 30px 30px 5px;
+    border: 1px solid lightgray;
+}
+
+.news-area h2 {
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+}
+
+.why-lemoni-area {
+    padding-left: 50px;
+}
+
+
+
+
+
+.footer {
+    background-color: #161616;
+    padding: 70px 0;
+}
+
+.footer-logo {
+    margin-bottom: 30px;
+}
+
+.footer .address {
+    color: #666666;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.section-title-line07 {
+    background-image: url(../images/section_title_line7.png);
+    height: 3px;
+    margin-bottom: 30px;
+    background-repeat: round;
+}
+
+.footer-post-area {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.footer-img {
+    float: left;
+    margin-right: 15px;
+    border: 1px solid transparent;
+}
+
+.footer-img img {
+    border: 1px solid transparent;
+}
+
+.footer-text {
+    float: right;
+}
+
+.footer h4 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.footer h6 {
+    color: white;
+    margin-bottom: 2px;
+}
+
+.footer .info {
+    color: #666666;
+    font-size: 14px;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+
+.footer-post-area:hover .footer-img {
+    border: 1px solid #fdce16;
+}
+
+.footer-post-area:hover h6 {
+    color: #fdce16;
+    transition: .5s;
+}
+
+.footer ul li a {
+    border: 1px solid #666666;
+    background-color: transparent;
+    color: #666666;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.footer ul li:hover a {
+    color: #fdce16;
+    border: 1px solid #fdce16;
+    transition: .5s;
+}
+
+.footer-line {
+    height: 1px;
+    background: #666666;
+    margin-bottom: 25px;
+}
+
+.footer .footer-icon ul li a {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    padding: 0;
+    text-align: center;
+    margin: 0;
 }
